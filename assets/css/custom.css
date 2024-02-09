@@ -1,0 +1,55 @@
+nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -40px;
+}
+/* Style the logo */
+.logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px; /* Adjust the spacing between links as needed */
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+/* Style the links */
+.nav-links li a {
+  text-decoration: none;
+  color: #fff; /* Change the text color as desired */
+  font-size: 120%;
+}
+
+/* Change link color on hover */
+.nav-links li a:hover {
+  color: #ffcc00; /* Change the text color on hover as desired */
+}
+
+#landing-word {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 240%;
+  font-weight: bold;
+  color: white;
+}
+
+#hero {
+  height: 100%;
+}
+
+#hero-image {
+  width: 40rem;
+}

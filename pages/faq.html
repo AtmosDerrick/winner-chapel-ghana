@@ -25,51 +25,59 @@
   </head>
   <body>
     <div id="landing">
-      <nav class="w-5/6 mx-auto">
+      <nav class="lg:w-5/6 lg:mx-auto">
         <div class="logo">
           <img src="../images/WCIC-Logo-29_White-3.png" alt="Your Logo" />
         </div>
+
         <ul class="nav-links">
           <li><a href="/">Home</a></li>
           <li><a href="./about.html">About us</a></li>
 
           <li><a href="./Ministries.html">Ministries</a></li>
-          <li><a href="#">Give</a></li>
           <li><a href="./faq.html">FAQ</a></li>
+
+          <li><a href="#">Give</a></li>
           <li><a href="./contact.html">Contact Us</a></li>
         </ul>
+
+        <div class="menu-toggle">
+          <i class="fa fa-bars"></i>
+        </div>
       </nav>
 
       <div class="w-5/6 mx-auto flex items-center h-[30vh]">
         <div>
-          <h1 class="text-[3em] font-bold">Frequently Asked Questions</h1>
+          <h1 class="text-[2rem] lg:text-[3em] font-bold">
+            Frequently Asked Questions
+          </h1>
         </div>
       </div>
     </div>
 
     <section
       id="sectionContainer"
-      class="w-5/6 mx-auto flex gap-12 justify-end mt-12">
+      class="px-4 lg:px-0 lg:w-5/6 mx-auto flex gap-4 lg:gap-12 lg:justify-end justify-start mt-12">
       <div
         onclick="showSection('general', this)"
-        class="text-lg font-bold text-red-500">
+        class="text-xs lg:text-lg lg:font-bold text-red-500 sm:w-full lg:w-auto">
         General Questions
       </div>
       <div
         onclick="showSection('new', this)"
-        class="text-lg font-bold text-red-500">
+        class="text-xs lg:text-lg lg:font-bold text-red-500 sm:w-full lg:w-auto">
         Newcomers
       </div>
       <div
         onclick="showSection('prayer', this)"
-        class="text-lg font-bold text-red-500">
+        class="text-xs lg:text-lg lg:font-bold text-red-500 sm:w-full lg:w-auto">
         Prayer Meeting
       </div>
     </section>
 
     <section
       id="general"
-      class="w-3/6 mx-auto my-8 section"
+      class="px-4 lg:px-0 lg:w-4/6 mx-auto my-8 section"
       style="display: block">
       <div class="mb-4">
         <h1 class="text-2xl font-bold text-black text-center">
@@ -88,7 +96,10 @@
       </div>
     </section>
 
-    <section id="new" class="w-3/6 mx-auto my-8 section" style="display: block">
+    <section
+      id="new"
+      class="px-4 lg:px-0 lg:w-4/6 mx-auto my-8 section"
+      style="display: block">
       <div class="mb-4">
         <h1 class="text-2xl font-bold text-black text-center">NEWCOMERS</h1>
         <div id="border" class="py-1"></div>
@@ -191,7 +202,7 @@
 
     <section
       id="prayer"
-      class="w-3/6 mx-auto my-8 section"
+      class="px-4 lg:px-0 lg:w-4/6 mx-auto my-8 section"
       style="display: block">
       <div class="mb-4">
         <h1 class="text-2xl font-bold text-black text-center">
@@ -208,8 +219,8 @@
       </div>
     </section>
 
-    <footer class="bg-black py-8 h-[50vh]">
-      <div class="grid grid-cols-4 w-5/6 mx-auto gap-8">
+    <footer class="bg-black py-8 lg:h-[50vh]">
+      <div class="grid grid-cols-1 lg:grid-cols-4 w-5/6 mx-auto gap-8">
         <div class="w-full">
           <div class="flex justify-center">
             <img src="../images/logo.png" class="w-32 h-32" />
@@ -246,7 +257,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full pl-12 pt-4">
+        <div class="w-full pl-12 pt-4 hidden lg:block">
           <h3 class="text-white text-xl font-bold mb-4">Church Links</h3>
           <div id="borderfooter" class="mb-4"></div>
           <ul class="text-white para">
@@ -258,7 +269,7 @@
           </ul>
         </div>
 
-        <div class="w-full pl-12 pt-4">
+        <div class="w-full pl-12 pt-4 hidden lg:block">
           <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
           <div id="borderfooter" class="mb-4"></div>
           <ul class="text-white para">
@@ -269,8 +280,8 @@
           </ul>
         </div>
 
-        <div class="w-full pl-12 pt-4">
-          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+        <div class="w-full lg:pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Contacts</h3>
           <div id="borderfooter" class="mb-4"></div>
           <ul class="text-white leading-[3rem]">
             <li>81-83 Broughton Lane, Salford. M8 9UE. Manchester.</li>

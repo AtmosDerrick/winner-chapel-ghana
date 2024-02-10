@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="../assets/css/custom.css" />
     <link rel="stylesheet" href="../assets/css/about.css" />
+    <link rel="stylesheet" href="../assets/css/contact.css" />
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <script>
@@ -22,5 +24,222 @@
       };
     </script>
   </head>
-  <body></body>
+  <body>
+    <div id="landing">
+      <nav class="w-5/6 mx-auto">
+        <div class="logo">
+          <img src="../images/WCIC-Logo-29_White-3.png" alt="Your Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="./pages/about.html">About us</a></li>
+
+          <li><a href="#">Ministries</a></li>
+          <li><a href="#">Give</a></li>
+          <li><a href="#">WOFBI</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="w-5/6 mx-auto flex items-center h-[30vh]">
+        <div>
+          <h1 class="text-[5em] font-bold">We're here for you!</h1>
+          <p class="text-left text-white text-lg">
+            If you would like to talk to us, please call us at <br />
+            +2347080638000 or send an email to contactcentre@lfcww.org
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-between w-5/6 mx-auto">
+      <div class="w-full"><div class="container">
+        <div class="box" onclick="showContent(1)">
+            <h2>Div 1</h2>
+        </div>
+        <div class="box" onclick="showContent(2)">
+            <h2>Div 2</h2>
+        </div>
+        <div class="box" onclick="showContent(3)">
+            <h2>Div 3</h2>
+        </div>
+        <div class="box" onclick="showContent(4)">
+            <h2>Div 4</h2>
+        </div>
+        <div class="box" onclick="showContent(5)">
+            <h2>Div 5</h2>
+        </div>
+        <div id="contentArea" class="content"></div>
+    </div></div>
+      <div class="container">
+        <h2 class="text-[2em] font-bold text-white">
+          More Information? <span class="">Contact Us</span>
+        </h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <select id="title" name="title" class="text-gray-400">
+              <option value="">Title</option>
+              <option value="mr">Mr.</option>
+              <option value="mrs">Mrs.</option>
+              <option value="ms">Ms.</option>
+              <option value="dr">Dr.</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name"
+              required />
+          </div>
+          <div class="form-group">
+            <select id="gender" name="gender" class="text-gray-400">
+              <option value="">Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required />
+          </div>
+          <div class="form-group">
+            <input
+              type="tel"
+              id="phone"
+              placeholder="Phone"
+              name="phone"
+              required />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="country"
+              placeholder="Country"
+              name="country"
+              required />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="state"
+              placeholder="State"
+              name="state"
+              required />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="city"
+              placeholder="Town/City"
+              name="city"
+              required />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="subject"
+              placeholder="Subject"
+              name="subject"
+              required />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="comment"
+              name="comment"
+              rows="4"
+              placeholder="write to us"
+              class="p-2"
+              required></textarea>
+          </div>
+          <div class="w-full flex justify-center">
+            <button
+              type="submit"
+              class="py-3 w-5/6 mx-auto rounded-xl bg-white text-black shadow-xl font-bold text-lg text-red-500">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer class="bg-black py-8 h-[50vh]">
+      <div class="grid grid-cols-4 w-5/6 mx-auto gap-8">
+        <div class="w-full">
+          <div class="flex justify-center">
+            <img src="../images/logo.png" class="w-32 h-32" />
+          </div>
+          <div class="mt-4">
+            <p class="text-white">
+              Winners Chapel International Manchester Is A Faith-Based Church,
+              An Assembly Of God's People Based In Salford, Greater Manchester.
+              UK. Join Us Every Sunday And Wednesday For Worship.
+            </p>
+            <div class="text-white mt-4">
+              <ul class="icons">
+                <li>
+                  <a href="#" class="icon brands fa-twitter"
+                    ><span class="label">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-instagram"
+                    ><span class="label">Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-github"
+                    ><span class="label">GitHub</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon fa-envelope"
+                    ><span class="label">Email</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Church Links</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Ministries</li>
+            <li>Give</li>
+            <li>Events</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Teen's Church</li>
+            <li>Winners' Kids</li>
+            <li>Testimonies</li>
+            <li>Prayer</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white leading-[3rem]">
+            <li>81-83 Broughton Lane, Salford. M8 9UE. Manchester.</li>
+            <li>Telephone: 01618326020, +447904646717</li>
+            <li>
+              Email: Info.Manchester@Winners-Chapel..Org.Uk Webmail (Internal)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -1,3 +1,4 @@
+/* Default styles */
 nav {
   margin: 0 auto;
   display: flex;
@@ -5,6 +6,7 @@ nav {
   align-items: center;
   margin-top: -40px;
 }
+
 /* Style the logo */
 .logo img {
   height: 50px; /* Adjust the height as needed */
@@ -14,6 +16,8 @@ nav {
 .nav-links {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
@@ -36,6 +40,17 @@ nav {
   color: #ffcc00; /* Change the text color on hover as desired */
 }
 
+/* Style the menu toggle */
+.menu-toggle {
+  display: none; /* Initially hide the menu toggle on larger screens */
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  font-size: 24px; /* Adjust the icon size as needed */
+  color: #fff; /* Change the icon color as desired */
+}
+
 #landing-word {
   height: 100%;
   display: flex;
@@ -52,4 +67,51 @@ nav {
 
 #hero-image {
   width: 60rem;
+}
+
+/* Style the menu toggle */
+.menu-toggle {
+  display: none; /* Initially hide the menu toggle on larger screens */
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  font-size: 24px; /* Adjust the icon size as needed */
+  color: #fff; /* Change the icon color as desired */
+}
+
+@media only screen and (max-width: 600px) {
+  #hero-image {
+    width: 30rem;
+  }
+
+  #landing-word {
+    height: 70%;
+  }
+
+  .nav-links {
+    display: none; /* Initially hide the nav links on smaller screens */
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: block; /* Display the menu toggle on smaller screens */
+  }
+
+  /* Dropdown effect for nav links when menu is active */
+  .nav-links.active {
+    display: flex; /* Display the nav links when menu is active */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust the top position as needed */
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust background color as desired */
+    z-index: 999; /* Ensure it appears above other content */
+  }
+
+  .nav-links.active li {
+    margin: 10px 0;
+  }
 }

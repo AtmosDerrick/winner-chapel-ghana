@@ -157,3 +157,17 @@ body {
 h2 {
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Dropdown effect for nav links when menu is active */
+  .nav-links.active {
+    display: flex; /* Display the nav links when menu is active */
+    flex-direction: column;
+    position: absolute;
+    top: 100px; /* Adjust the top position as needed */
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Adjust background color as desired */
+    z-index: 999; /* Ensure it appears above other content */
+  }
+}

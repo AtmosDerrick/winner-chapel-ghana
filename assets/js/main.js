@@ -4,6 +4,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+document.querySelector(".menu-toggle").addEventListener("click", function () {
+  document.querySelector(".nav-links").classList.toggle("active");
+});
+
 (function () {
   "use strict";
 

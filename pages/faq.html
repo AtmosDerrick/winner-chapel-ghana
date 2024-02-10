@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/about.css" />
+    <link rel="stylesheet" href="../assets/css/ministry.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="landing">
+      <nav class="w-5/6 mx-auto">
+        <div class="logo">
+          <img src="../images/WCIC-Logo-29_White-3.png" alt="Your Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+
+          <li><a href="./Ministries.html">Ministries</a></li>
+          <li><a href="#">Give</a></li>
+          <li><a href="./faq.html">FAQ</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="w-5/6 mx-auto flex items-center h-[30vh]">
+        <div>
+          <h1 class="text-[3em] font-bold">Frequently Asked Questions</h1>
+        </div>
+      </div>
+    </div>
+
+    <section
+      id="sectionContainer"
+      class="w-5/6 mx-auto flex gap-12 justify-end mt-12">
+      <div
+        onclick="showSection('general', this)"
+        class="text-lg font-bold text-red-500">
+        General Questions
+      </div>
+      <div
+        onclick="showSection('new', this)"
+        class="text-lg font-bold text-red-500">
+        Newcomers
+      </div>
+      <div
+        onclick="showSection('prayer', this)"
+        class="text-lg font-bold text-red-500">
+        Prayer Meeting
+      </div>
+    </section>
+
+    <section
+      id="general"
+      class="w-3/6 mx-auto my-8 section"
+      style="display: block">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">
+          General Question
+        </h1>
+        <div id="border" class="py-1"></div>
+      </div>
+      <div class="para">
+        <h2 class="text-black font-bold text-lg">
+          WHAT SHOULD I EXPECT ON SUNDAYS?
+        </h2>
+        We believe that your visit is not coincidental but divinely orchestrated
+        to effect the change and turnaround you are due for. Expect to be
+        exposed to the revelational knowledge of the Word of God, the refreshing
+        of His Presence and empower for a life of fulfilment and of glory.
+      </div>
+    </section>
+
+    <section id="new" class="w-3/6 mx-auto my-8 section" style="display: block">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">NEWCOMERS</h1>
+        <div id="border" class="py-1"></div>
+      </div>
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          WHAT ARE THE SERVICE TIMES FOR YOUR CHURCH?
+        </h2>
+        Our regular service times are 08:30 EST & 10:30 EST on Sunday's, and
+        18:00 EST on Wednesday's. Please check our website or contact us for any
+        special service schedules like our Week of Spiritual Emphasis.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          DO YOU OFFER ONLINE SERVICES OR LIVESTREAMING?
+        </h2>
+
+        Yes, we did offer online services that you can watch from the comfort of
+        your home, but this has been temporarily suspended.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          WHAT ARE THE SERVICE TIMES FOR YOUR CHURCH?
+        </h2>
+        Our regular service times are 08:30 EST & 10:30 EST on Sunday's, and
+        18:00 EST on Wednesday's. Please check our website or contact us for any
+        special service schedules like our Week of Spiritual Emphasis.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          IS THERE A DRESS CODE FOR ATTENDING CHURCH SERVICES?
+        </h2>
+
+        We welcome everyone, and there is no strict dress code. Most of our
+        attendees dress in a manner that is comfortable for them, ranging from
+        casual to more formal attire.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          HOW CAN I GET INVOLVED AT CHURCH?
+        </h2>
+
+        We encourage active participation in our church community. Please visit
+        our "Get Involved" page on our website to explore volunteering
+        opportunities and ways to contribute.
+      </div>
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          DO YOU OFFER PROGRAMS FOR CHILDREN & YOUTH?
+        </h2>
+
+        Yes, we have programs for children and youth. Visit our "Ministries"
+        section on the website to learn more about our offerings for various age
+        groups. You can also "Contact Us" for more information.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          ARE YOUR SERVICES AND FACILITIES ACCESSIBLE TO EVERYONE?
+        </h2>
+
+        We are committed to providing an inclusive environment. Our facilities
+        are wheelchair accessible, and we have accommodations to support
+        everyone.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          CAN I SCHEDULE A MEETING WITH A PASTOR OR CLERGY MEMBER?
+        </h2>
+
+        Yes, you can request a meeting with one of our Pastors or clergy
+        members. Please visit the "Contact Us" section to request an
+        appointment.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          HOW CAN I GET UPDATES ON UPCOMING CHURCH EVENTS AND ACTIVITIES?
+        </h2>
+
+        Stay informed about our events and activities by subscribing to our
+        newsletter or following us on social media.
+      </div>
+
+      <div class="para mb-8">
+        <h2 class="text-black font-bold text-lg">
+          HOW CAN I ACCESS PAST SERMONS OR TEACHINGS?
+        </h2>
+
+        You can access past sermons and teachings on our website's "Audio
+        Messages" under the "Get Involved" section. We often post audio
+        recordings for your convenience.
+      </div>
+    </section>
+
+    <section
+      id="prayer"
+      class="w-3/6 mx-auto my-8 section"
+      style="display: block">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">
+          PRAYER MEETING
+        </h1>
+        <div id="border" class="py-1"></div>
+      </div>
+      <div class="para">
+        <h2 class="text-black font-bold text-lg">
+          WHEN DO YOU HOLD PRAYER MEETINGS?
+        </h2>
+        Daily Covenant Hour of Prayer holds at the church auditorius at 06:00
+        EST Daily Kingdom Advancement Prayer Squad holds at 17:00 EST
+      </div>
+    </section>
+
+    <footer class="bg-black py-8 h-[50vh]">
+      <div class="grid grid-cols-4 w-5/6 mx-auto gap-8">
+        <div class="w-full">
+          <div class="flex justify-center">
+            <img src="../images/logo.png" class="w-32 h-32" />
+          </div>
+          <div class="mt-4">
+            <p class="text-white">
+              Winners Chapel International Manchester Is A Faith-Based Church,
+              An Assembly Of God's People Based In Salford, Greater Manchester.
+              UK. Join Us Every Sunday And Wednesday For Worship.
+            </p>
+            <div class="text-white mt-4">
+              <ul class="icons">
+                <li>
+                  <a href="#" class="icon brands fa-twitter"
+                    ><span class="label">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-instagram"
+                    ><span class="label">Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-github"
+                    ><span class="label">GitHub</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon fa-envelope"
+                    ><span class="label">Email</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Church Links</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Ministries</li>
+            <li>Give</li>
+            <li>Events</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Teen's Church</li>
+            <li>Winners' Kids</li>
+            <li>Testimonies</li>
+            <li>Prayer</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white leading-[3rem]">
+            <li>81-83 Broughton Lane, Salford. M8 9UE. Manchester.</li>
+            <li>Telephone: 01618326020, +447904646717</li>
+            <li>
+              Email: Info.Manchester@Winners-Chapel..Org.Uk Webmail (Internal)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/about.js"></script>
+  </body>
+</html>

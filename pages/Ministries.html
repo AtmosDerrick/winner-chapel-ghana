@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/about.css" />
+    <link rel="stylesheet" href="../assets/css/ministry.css" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="landing">
+      <nav class="w-5/6 mx-auto">
+        <div class="logo">
+          <img src="../images/WCIC-Logo-29_White-3.png" alt="Your Logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+
+          <li><a href="#">Ministries</a></li>
+          <li><a href="#">Give</a></li>
+            <li><a href="./pages/Ministries.html">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="w-5/6 mx-auto flex items-center h-[30vh]">
+        <div>
+          <h1 class="text-[5em] font-bold">Get Involve in the work of GOD</h1>
+        </div>
+      </div>
+    </div>
+
+    <section
+      id="sectionContainer"
+      class="w-5/6 mx-auto flex gap-12 justify-end mt-12">
+      <div
+        onclick="showSection('about', this)"
+        class="text-lg font-bold text-red-500">
+        Bible Institute (WOFBI)
+      </div>
+      <div
+        onclick="showSection('youth', this)"
+        class="text-lg font-bold text-red-500">
+        Ministries
+      </div>
+      <div
+        onclick="showSection('bible', this)"
+        class="text-lg font-bold text-red-500">
+        Service Group
+      </div>
+    </section>
+
+    <section
+      id="about"
+      class="w-4/6 mx-auto my-8 section"
+      style="display: block">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">WOFBI</h1>
+        <div id="border" class="py-1"></div>
+      </div>
+      <div class="para">
+        <p>
+          The Word of Faith Bible Institute [WOFBI] is a Ministry/Leadership
+          Training Centre, which serves as the training arm of the Living Faith
+          Church Worldwide. The institute runs a one week intensive program
+          which begins at 8 am and ends at 7 pm daily. The courses are designed
+          to motivate participants positively towards distinction both in their
+          secular as well as spiritual engagement. The Vision of the Institute
+          is in line with the mandate given to Dr. David Oyedepo in May 1983
+          when the Holy Ghost said to him, “I will through THIS MINISTRY RAISE
+          THE FOUNDATION OF MANY OTHER MINISTRIES”. For this reason, the
+          Institute’s Curriculum is designed to inculcate covenant excellence in
+          Leadership, Ministry, Social, Economic and other areas of human
+          endeavours.
+        </p>
+
+        <div class="my-4 mt-16">
+          <h1 class="text-2xl font-bold text-black text-center">
+            Historical Landmarks
+          </h1>
+          <div id="border" class="py-1"></div>
+        </div>
+        <p>
+          The Institute took off September 1st 1986 at Kaduna, Nigeria and have
+          since graduated over Fifty Thousand [50,000] from the numerous
+          campuses in Nigeria while about five Thousand [5,000] have graduated
+          from the London and Manchester Campuses.
+        </p>
+
+        <div class="my-4 mt-16">
+          <h1 class="text-2xl font-bold text-black text-center">
+            Impact of WOFBI
+          </h1>
+          <div id="border" class="py-1"></div>
+        </div>
+        <p>
+          At WOFBI, we do not offer mere secular education; we also provide deep
+          spiritual enlightenment, as well as mental empowerment for exploits.
+          WOFBI is not just a place of learning; it is actually a mountain of
+          transformation.<br />
+          In the words of Dr. David Oyedepo, “There is no mountain anywhere;
+          every man’s ignorance is his mountain”. It is your light that defines
+          your limit, if you will submit to the forces of enlightenment; you
+          will subdue every mountainous issues of your life. Classes run
+          throughout the year, so take advantage of this great opportunity.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="youth"
+      class="w-4/6 mx-auto my-8 section"
+      style="display: none">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">
+          YOUTH MINISTRY
+        </h1>
+        <div id="border" class="py-1"></div>
+      </div>
+
+      <div class="para">
+        <p>
+          Our Youth and Singles Ministry at Winners Chapel Surrey is designed in
+          a unique way to enhance the value of every individual and set them up
+          for supernatural accomplishments. This ministry is specifically
+          focused on raising people with a difference.<br />The youths in the
+          Winners camp are definitely unique in every way! The programming of
+          the youth and singles is directed at their specific needs, touching on
+          areas like destiny, relationships and marriage, finance and many other
+          relevant areas. We believe that when the youths and singles are
+          spiritually buoyant, they will be definite change agents for this
+          generation.<br />Therefore you definitely need to be a part of this
+          great army. The details below expose some of the set programs in our
+          calendar. However, additional programs will usually be announced from
+          time to time for your edification. Please take full advantage of them
+          and your life will never be the same
+        </p>
+      </div>
+
+      <div class="my-4 mt-12">
+        <h1 class="text-2xl font-bold text-black text-center">
+          CHILDREN'S MINISTRY
+        </h1>
+        <div id="border" class="py-1"></div>
+      </div>
+
+      <div class="para">
+        <p>
+          We have a strong passion for Children and the desire to see them grow
+          in the knowledge of Christ. We believe that as your children become
+          rooted and grounded here, they would become and remain winners in
+          every area of their lives in Jesus name. The bible says in II Timothy
+          3:15, “And that from a child thou hast known the holy scriptures,
+          which are able to make thee wise unto salvation through faith which is
+          in Christ Jesus”.We see it as our responsibility to make this
+          scripture a reality by the help of the Holy Spirit within the time we
+          spend with your child/children.<br />
+          The Children’s church is designed to assist the children with
+          developing a real relationship with God, Jesus Christ, and the person
+          of the Holy Spirit by teaching them the word of faith that will
+          deliver them from all oppressions of the devil. Our main goal as the
+          leaders, teachers, and members of the Children’s church team is to
+          reach out to every child with the love of Christ and do all we can to
+          saturate the spirit, soul and body of the children with the word of
+          God so they are equipped with all they would need to face the
+          challenges of life and come out triumphant.<br />
+          We seek to do so in an age appropriate, exciting and fun filled way
+          which will cause the children to have a thirst, not just for the
+          knowledge of the word of God, but more importantly, for understanding.
+          We believe that it is when the children have understanding that they
+          can begin to walk towards a lifetime of excellence in every area of
+          their lives. The Children’s Church services holds at 9am and 11:15am.
+        </p>
+      </div>
+    </section>
+    <section
+      class="w-4/6 mx-auto my-16 section"
+      id="bible"
+      style="display: none">
+      <div class="grid grid-cols-2 gap-8">
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">Choir</h1>
+            <div id="border1" class="py-1 text-center italic">
+              Singers & Instrumentalists
+            </div>
+          </div>
+          <p class="para">
+            The Music Ministry is made up of God-fearing men and women, who are
+            talented music ministers and are committed to the work of God in
+            music. To belong to this group, experience in singing and skill to
+            play instruments will be an added advantage.
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">
+              Decoration Team
+            </h1>
+            <div id="border1" class="py-1 text-center italic"></div>
+          </div>
+          <p class="para">
+            This team is responsible for all interior and exterior decorations
+            of the church premises. The creativity of this amazing team
+            consistently adds the right touch to each area.
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">
+              Evangelism Team
+            </h1>
+            <div id="border1" class="py-1 text-center italic"></div>
+          </div>
+          <p class="para">
+            This team preaches and teaches the word of God with the utilization
+            of tracts to win souls in the community. Visiting hospitals to pray
+            for the sick and administer salvation to them. Engage in strategic
+            personal evangelism to have a one-on-one opportunity to share the
+            good news of Christ with people and to invite them to Church.
+            Organizing occasional Mass Evangelism for the Church.
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">
+              Follow-Up Team
+            </h1>
+            <div id="border1" class="py-1 text-center italic"></div>
+          </div>
+          <p class="para">
+            This team dedicates itself to connecting first time guests and new
+            converts to the church. They thrive on building strong believers by
+            helping them take first steps in their walk with Christ. This team
+            ensures that those who join the Winners' family don't slip out due
+            to lack of information or visitation.
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">
+              Hospitality Team
+            </h1>
+            <div id="border1" class="py-1 text-center italic"></div>
+          </div>
+          <p class="para">
+            This team loves to create a friendly and welcoming atmosphere in and
+            around our church services. Besides welcoming worshippers at the
+            entrance of the church, and assisting those who may need help to
+            their seats, they readily show the Winners Trademarked tender,
+            loving care to those in need of physical assistance.
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">
+              Media Team
+            </h1>
+            <div id="border1" class="py-1 text-center italic"></div>
+          </div>
+          <p class="para">
+            This team maintains and sets up musical instruments and microphones
+            for all our services. They also record messages of every service and
+            are in charge of the day-to-day update of the church website. <h3 class="text-black text-lg font-bold text-left">Media
+            And Production</h3> <p class="para">This group is made up of skilled and trained media
+            personnel who are responsible for our graphics, TV outreach
+            programs, film editing, and all forms of electronic and print media.</p>
+            <h3 class="text-black text-lg font-bold text-left">The Publication Team</h3> <p class="para">Our team of fantastic writers edit our Church
+            publications and also serve as the public relations arm of the
+            church.</p>
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+
+
+        <div class="w-full bg-gray-300 h-[20rem]"></div>
+
+        <div>
+          <div class="mb-4">
+            <h1 class="text-2xl font-bold text-black text-center">
+              Prayer Squad
+            </h1>
+            <div id="border1" class="py-1 text-center italic"></div>
+          </div>
+          <p class="para">
+            This team is the praying arm of the church. Every member of the church is expected to be a member. It is the practice of the scripture that guarantee your future. This team stands in the gap through prayers for the church and its members. 
+          </p>
+          <div class="w-full flex justify-center mt-10">
+            <button
+              class="bg-red-500 py-2 px-8 rounded-lg text-white font-mediumbold shadow-lg">
+              Join the team
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black py-8 h-[50vh]">
+      <div class="grid grid-cols-4 w-5/6 mx-auto gap-8">
+        <div class="w-full">
+          <div class="flex justify-center">
+            <img src="../images/logo.png" class="w-32 h-32" />
+          </div>
+          <div class="mt-4">
+            <p class="text-white">
+              Winners Chapel International Manchester Is A Faith-Based Church,
+              An Assembly Of God's People Based In Salford, Greater Manchester.
+              UK. Join Us Every Sunday And Wednesday For Worship.
+            </p>
+            <div class="text-white mt-4">
+              <ul class="icons">
+                <li>
+                  <a href="#" class="icon brands fa-twitter"
+                    ><span class="label">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-instagram"
+                    ><span class="label">Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-github"
+                    ><span class="label">GitHub</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon fa-envelope"
+                    ><span class="label">Email</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Church Links</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Ministries</li>
+            <li>Give</li>
+            <li>Events</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Teen's Church</li>
+            <li>Winners' Kids</li>
+            <li>Testimonies</li>
+            <li>Prayer</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white leading-[3rem]">
+            <li>81-83 Broughton Lane, Salford. M8 9UE. Manchester.</li>
+            <li>Telephone: 01618326020, +447904646717</li>
+            <li>
+              Email: Info.Manchester@Winners-Chapel..Org.Uk Webmail (Internal)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../assets/js/about.js"></script>
+  </body>
+</html>

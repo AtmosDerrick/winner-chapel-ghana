@@ -121,7 +121,7 @@ body {
 }
 
 #border {
-  border-bottom: 1px solid rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(255, 0, 0);
   width: 10rem;
   margin: 0 auto;
 }

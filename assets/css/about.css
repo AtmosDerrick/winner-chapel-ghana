@@ -170,4 +170,9 @@ h2 {
     background-color: #333; /* Adjust background color as desired */
     z-index: 999; /* Ensure it appears above other content */
   }
+
+  .para {
+    line-height: 2rem;
+    text-align: justify;
+  }
 }

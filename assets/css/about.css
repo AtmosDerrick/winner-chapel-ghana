@@ -126,6 +126,11 @@ body {
   margin: 0 auto;
 }
 
+#borderfooter {
+  border-bottom: 1px solid rgb(180, 0, 0);
+  width: 10rem;
+}
+
 .para {
   line-height: 2.5rem;
   text-align: justify;
@@ -147,4 +152,8 @@ body {
 
 #sectionContainer div.active {
   border-bottom: 2px solid orange; /* Orange bottom border for active div */
+}
+
+h2 {
+  color: black;
 }

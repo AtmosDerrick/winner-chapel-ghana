@@ -35,7 +35,7 @@
 
           <li><a href="#">Ministries</a></li>
           <li><a href="#">Give</a></li>
-          <li><a href="#">Events</a></li>
+          <li><a href="#">WOFBI</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
@@ -43,19 +43,132 @@
 
     <section
       id="sectionContainer"
-      class="w-5/6 mx-auto flex gap-12 justify-start mt-12">
-      <div onclick="handleClick(this)" class="text-lg font-bold text-gray-700">
+      class="w-5/6 mx-auto flex gap-12 justify-end mt-12">
+      <div
+        onclick="showSection('about', this)"
+        class="text-lg font-bold text-gray-700">
+        ABOUT US
+      </div>
+      <div
+        onclick="showSection('pastor', this)"
+        class="text-lg font-bold text-gray-700">
         BISHOP DAVID OYEDEPO
       </div>
-      <div onclick="handleClick(this)" class="text-lg font-bold text-gray-700">
-        THE MANDATE
+      <div
+        onclick="showSection('mandate', this)"
+        class="text-lg font-bold text-gray-700">
+        MANDATE
       </div>
-      <div onclick="handleClick(this)" class="text-lg font-bold text-gray-700">
+
+      <div
+        onclick="showSection('pillar', this)"
+        class="text-lg font-bold text-gray-700">
         12 PILLARS
       </div>
     </section>
 
-    <section id="pastor" class="w-5/6 mx-auto my-8">
+    <section
+      id="mandate"
+      class="w-4/6 mx-auto my-8 section"
+      style="display: none">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">MANDATE</h1>
+        <div id="border" class="py-1"></div>
+      </div>
+      <p class="para">
+        Our Mandate for ministry was received from God in an 18-hour vision to
+        the presiding Bishop of this commission, Bishop David O Oyedapo. During
+        this vision, a commission was received from God to liberate mankind in
+        all facets of human existence, to restore broken destinies, to bring
+        healing to the infirmed.<br />
+        This was the Divine mandate received from God: “Now the hour has come to
+        liberate the world from all oppressions of the devil through the
+        preaching of the word of faith, and I am sending you to undertake this
+        task.”<br />
+        This mandate was further confirmed from the epistle of Paul to the
+        Ephesians where God Said, “Above all, taking the shield of faith,
+        wherewith ye shall be able to quench all the fiery darts of the wicked”
+        (Eph 6:16).<br />
+        This was the genesis of this global ministry today and according to this
+        mandate, the Word of Faith is the key to triumphant living. Shortly,
+        thereafter, a weekly teaching programme took-off, popularly known as the
+        Faith Liberation Hour. Alongside, a caucus was put in place, tagged The
+        Power House which was involved in prayers and fasting among others
+        towards the actualization of this heavenly vision.<br />
+        Today, testimonies of liberation through our messages, books, CDs, DVDs,
+        magazines, and other periodicals are most humbling. The word of faith is
+        working like fire for the liberation of mankind across the nations.
+      </p>
+    </section>
+    <section
+      id="about"
+      class="w-4/6 mx-auto my-8 section"
+      style="display: block">
+      <div class="mb-4">
+        <h1 class="text-2xl font-bold text-black text-center">ABOUT US</h1>
+        <div id="border" class="py-1"></div>
+      </div>
+      <div class="para">
+        <p>
+          Welcome to Winners Chapel International, Dartford European
+          headquarters. We are an arm of the Living Faith Church Worldwide. Our
+          vision, as delivered to the Presiding Bishop, Dr David Oyedepo, is to
+          preach the Word of Faith, liberating men everywhere from every
+          oppression of the devil. We are dedicated to accomplishing this task
+          throughout the United Kingdom, and Europe at large. Our church in
+          London was officially inaugurated in 2002 to spread the Word of Faith
+          and to bring the liberation mandate to the United Kingdom and Europe.
+          We have experienced diverse testimonies as individuals and as a church
+          ever since. We currently occupy a 1500 seater Campus in the district
+          of Dartford, a Children’s Church capacity of 500 and Teens Church of
+          300 seating capacity where the Word of Faith is preached in our
+          various services and the people of God are empowered to live a life of
+          dominion. We are glad you have come to this website because we know
+          your life will never be the same again. Take time to browse through
+          the site and we know it would be a blessing to you. Also, join any of
+          our weekly & Sunday services and as you come to visit us, God will
+          meet you at every point of your need.
+        </p>
+
+        <div class="my-4 mt-16">
+          <h1 class="text-2xl font-bold text-black text-center">MISSION</h1>
+          <div id="border" class="py-1"></div>
+        </div>
+        <p>
+          David Oyedepo received a mandate from God in an 18-hour long vision in
+          May 1981 to liberate the world from all oppressions of the devil
+          through the preaching of the word of faith. This is the inaugural
+          vision that led to the founding of the Living Faith Church World Wide
+          (LFCWW), first called Liberation Faith Hour Ministries, in 1981. Two
+          years after, on September 17, 1983, Pastor Enoch Adeboye, the General
+          Overseer of the Redeemed Christian Church of God, ordained David
+          Oyedepo and his wife, Florence Abiola Akano (now known as Faith Abiola
+          Oyedepo) as pastors and also officially commissioned the newly started
+          church. Five years after, David Oyedepo was ordained a Bishop. Living
+          Faith Church (AKA Winners Chapel) started in Kaduna, but David Oyedepo
+          moved to Lagos, the former capital of Nigeria in September 1989, to
+          start a new branch after receiving an instruction from God to reach
+          out to the population in Lagos. This Church in Lagos grew to become
+          the International headquarters of Living Faith Church, with a
+          constantly increasing flow of crowds spilling over to adjacent roads,
+          and on decks of uncompleted buildings nearby, compelling people to
+          stand for hours to listen to his teachings. This led to the building
+          of the renowned Faith Tabernacle, as instructed by God. David Oyedepo
+          is an acclaimed author and publisher who has written over 70 titles
+          apart from periodicals. He is also Chairman/Publisher of Dominion
+          Publishing House (DPH), a publishing arm of his ministry. DPH has over
+          4 million prints in circulation to date. Through God’s grace upon him,
+          Covenant University, Landmark University, Faith Academy and Kingdom
+          Heritage Model Schools have been established to equip the youth for
+          impact.
+        </p>
+      </div>
+    </section>
+
+    <section
+      id="pastor"
+      class="w-5/6 mx-auto my-8 section"
+      style="display: none">
       <div class="flex justify-between gap-12">
         <div class="w-2/4">
           <img src="../images/pastor.jpg" class="" />
@@ -66,43 +179,45 @@
               BISHOP DAVID O. OYEDEPO
             </h1>
             <h1 class="text-gray-700 text-3xl font-bold">
-              FOUNDER & PRESIDENT, LIVING FAITH CHURCH WORLDWIDE
+              THE PRESIDING BISHOP & FOUNDER
             </h1>
           </div>
-          <p class="text-lg text-justify">
-            Bishop David O. Oyedepo received a call into the ministry through a
-            heavenly vision, where he saw a lineup of battered, beaten,
-            tattered, deformed, groaning for escape, he began sobbing with the.
-            In response to his question, ‘but why Lord?’ God answered, “But from
-            the beginning it was not so, and now the hour has come to liberate
-            the whole world from all oppression of the devil through the
-            preaching of the world of faith and I AM sending you to undertake
-            this task.” Today, he stands as an Apostle of Faith to the nations,
-            the impact of whose ministry has continued to spread across many
-            nations of the world. As an accomplished author, he has written over
-            100 titles, which circulates both in hard and online stores around
-            the world. A number of these titles have been translated to other
-            major languages of the world including French, Chinese, Spanish and
-            others He is the Founder and President of Living Faith Church
-            worldwide, aka Winners’ Chapel International and presently oversees
-            over 21,000 churches across Nigeria and several thousand across six
-            major continents of the world. He is the founding and Senior Pastor
-            of the Faith Tabernacle, Canaanland Ota, Nigeria, the international
-            Headquarter of the Church, which is reputed to be the largest single
-            congregation in the world As a leader of renown, he has redefined
-            leadership as an evolution of values. Today, he is spearheading a
-            revolution in education across the nation, through his network of
-            primary and secondary across the nation and the establishment of two
-            thriving universities, namely, Covenant university, Ota, Lagos and
-            Landmark University Omuaran, Kwara State, both in Nigeria.
+          <p class="text-lg text-justify para">
+            On September 27, 1954, Bishop David Olaniyi Oyedepo, a native of
+            Omu-Aran, Kwara State, Nigeria, was born in Osogbo into a
+            religiously mixed family.<br />
+            His father, Ibrahim, was a Muslim healer, while his mother, Dorcas,
+            was a member of the Eternal Order of the Cherubim and Seraphim
+            Movement (C&S).<br />
+            He was raised by his grandmother in Osogbo, who inculcated in him
+            the virtues of Christian life through the early morning prayers
+            which he attended with her. She also taught him the importance of
+            tithing and other basic Christian virtues.<br />
+            David Oyedepo gave his life to Jesus Christ in 1969 through the
+            influence of his former teacher, Ms Betty Lasher, who took a special
+            interest in him during his high school days. He studied Architecture
+            at Kwara State Polytechnic, Ilorin, and worked briefly with the
+            Federal Ministry of Housing in Ilorin before resigning to
+            concentrate on missionary work.<br />
+            David Oyedepo also earned a PhD in Human Development from Honolulu
+            University, Hawaii, United States of America. In 1982 he married
+            Florence Abiola Akano (now known as Faith). They have four children
+            together (David Jr., Isaac, Love, and Joy).<br />
+            David Jr. and Isaac Oyedepo were ordained as Pastors in May 2007 by
+            Kenneth Copeland.
           </p>
         </div>
       </div>
     </section>
-    <section class="w-4/6 mx-auto my-16">
+    <section
+      class="w-4/6 mx-auto my-16 section"
+      id="pillar"
+      style="display: none">
       <div class="">
-        <h1 class="text-2xl font-bold text-black text-center">12 PILLARS</h1>
-        <div id="border" class="mb-8"></div>
+        <div class="mb-4">
+          <h1 class="text-2xl font-bold text-black text-center">12 PILLARS</h1>
+          <div id="border" class="py-1"></div>
+        </div>
         <p class="text-left text-lg font-sans">
           God commissioned the presiding Bishop of this commission with a Word
           of Faith ministry to our generation. Remember Paul said, "...if the
@@ -165,9 +280,148 @@
               1:1-8; Isaiah 10:27)
             </p>
           </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">6. PROSPERITY</h2>
+            <p class="para">
+              "Beloved, I wish above all things that thou mayest prosper and be
+              in health, even as thy soul prospereth." 3 John 2. "Cry yet,
+              saying, Thus saith the Lord of hosts; My cities through prosperity
+              shall yet be spread abroad..." (3 John 2; Psalm 35:27; Zech. 1:17)
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">7. VISION</h2>
+            <p class="para">
+              "Where there is no vision, the people perish: but he that keepeth
+              the law, happy is he." (Proverbs 29:18, Jer. 29:11),
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">8. PRAYER</h2>
+            <p class="para">
+              "And this is the confidence that we have in him, that, if we ask
+              anything according to his will, he heareth us." (1 John 5:14)
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">9. HEALING</h2>
+            <p class="para">
+              "That it might be fulfilled which was spoken by Esaias the
+              prophet, saying, Himself took our infirmities, and bare our
+              sicknesses." (Isaiah 53:3-4; Jer. 8:22; Matt. 8:17)
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">10. WISDOM</h2>
+            <p class="para">
+              "That it might be fulfilled which was spoken by Esaias the
+              prophet, saying, Himself took our infirmities, and bare our
+              sicknesses." (Isaiah 53:3-4; Jer. 8:22; Matt. 8:17)
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">11.CONSECRATION</h2>
+            <p class="para">
+              "Nevertheless the foundation of God standeth sure, having this
+              seal, the Lord knoweth them that are his. And let every one that
+              nameth the name of Christ depart from iniquity." (Hebrews 12:14; 2
+              Tim. 2:19)
+            </p>
+          </li>
+
+          <li class="mb-4">
+            <h2 class="text-black font-bold">12. SUCCESS</h2>
+            <p class="para">
+              "This book of the law shall not depart out of thy mouth; but thou
+              shalt meditate therein day and night, that thou mayest observe to
+              do according to all that is written therein: for then thou shalt
+              make thy way prosperous, and then thou shalt have good success."
+              (Joshua 1:8-10)
+            </p>
+          </li>
         </ol>
       </div>
     </section>
+    <footer class="bg-black py-8 h-[50vh]">
+      <div class="grid grid-cols-4 w-5/6 mx-auto gap-8">
+        <div class="w-full">
+          <div class="flex justify-center">
+            <img src="../images/logo.png" class="w-32 h-32" />
+          </div>
+          <div class="mt-4">
+            <p class="text-white">
+              Winners Chapel International Manchester Is A Faith-Based Church,
+              An Assembly Of God's People Based In Salford, Greater Manchester.
+              UK. Join Us Every Sunday And Wednesday For Worship.
+            </p>
+            <div class="text-white mt-4">
+              <ul class="icons">
+                <li>
+                  <a href="#" class="icon brands fa-twitter"
+                    ><span class="label">Twitter</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-instagram"
+                    ><span class="label">Instagram</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon brands fa-github"
+                    ><span class="label">GitHub</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="icon fa-envelope"
+                    ><span class="label">Email</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Church Links</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Ministries</li>
+            <li>Give</li>
+            <li>Events</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white para">
+            <li>Teen's Church</li>
+            <li>Winners' Kids</li>
+            <li>Testimonies</li>
+            <li>Prayer</li>
+          </ul>
+        </div>
+
+        <div class="w-full pl-12 pt-4">
+          <h3 class="text-white text-xl font-bold mb-4">Ministries</h3>
+          <div id="borderfooter" class="mb-4"></div>
+          <ul class="text-white leading-[3rem]">
+            <li>81-83 Broughton Lane, Salford. M8 9UE. Manchester.</li>
+            <li>Telephone: 01618326020, +447904646717</li>
+            <li>
+              Email: Info.Manchester@Winners-Chapel..Org.Uk Webmail (Internal)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <script src="../assets/js/about.js"></script>
   </body>

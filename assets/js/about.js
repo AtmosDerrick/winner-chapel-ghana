@@ -1,3 +1,6 @@
+var autoActive = document.querySelector("#abt");
+autoActive.classList.add("active");
+
 function handleClick(element) {
   // Remove active class from previously active div
   var activeDiv = document.querySelector("#sectionContainer div.active");
